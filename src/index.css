@@ -11,3 +11,295 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* containers */
+.container-middle {
+  position: absolute;
+  left: 34%;
+  top: 24%;
+  width: 450px;
+  height: 550px;
+}
+
+/* header */
+.header {
+  margin-left: 30px;
+  width: 94%;
+  height: 74px;
+  border-bottom: 1.5px solid #6e6969;
+}
+
+.btn-navbar {
+  margin: 8px;
+  background-color: white;
+  width: 109px;
+  border-color: #003087;
+  box-shadow: inset 0 0 0 .0625rem #003087;
+  transition: color .2s ease, background-color .2s ease, border-color .2s ease, box-shadow .2s ease;
+  color: #003087;
+  min-height: 44px;
+  font-family: pp-sans-big-medium, Helvetica Neue, Arial, sans-serif;
+  font-size: 15px;
+  height: 18px;
+  outline: 0;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-navbar:hover {
+  background-color: #003087;
+  color:white;
+}
+
+/* home-componet */
+.home {
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+.search-input {
+  width: 350px;
+  height: 35px;
+  border: none;
+  margin: 25px;
+}
+
+.search-input:focus {
+  border: none;
+  outline: none;
+}
+
+/* card */
+.employee-card {
+  align-items: center;
+  justify-items: center;
+  margin: 15px;
+  width: 572px;
+  height: 118px;
+  border-radius: 7px;
+  border: 0.5px solid dodgerblue;
+  box-shadow: 1px 4px 7px 4px lightgrey;
+  background-color: #f8f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.employee-image {
+  display: inline-flex;
+  position: absolute;
+  left: 0;
+  margin-top: 22px;
+  margin-left: 37px;
+  background-color: lightgrey;
+  width: 90px;
+  height: 86px;
+  border-radius: 100px;
+}
+
+.employee-header {
+  text-align: center;
+  width: 700px;
+}
+
+.employee-header>h3 {
+  color: dodgerblue;
+}
+
+.delete-btn {
+  box-shadow: 1px 4px 7px 4px lightgrey;
+  cursor: pointer;
+}
+
+.employee-details {
+  word-break: break-all;
+  color: #0070ba;
+  text-align: center;
+}
+
+.employee-details>a:hover {
+  text-decoration: none;
+}
+
+/* admin-buttons */
+.admin-control {
+  margin: 15px;
+  box-shadow: 10px 6px 4px 4px lightgrey;
+  width: 200px;
+  height: 70px;
+  border-radius: 7px;
+  background-color: #0070ba;
+}
+
+/* login-component */
+.login-welcome {
+  object-fit: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 1536px;
+  max-height: 750px;
+}
+
+.login-welcome::-webkit-scrollbar {
+  display: none;
+  overflow: hidden
+}
+
+.return-login-btn {
+  float: right;
+  font-weight: 550;
+  color: #0070ba;
+}
+
+.return-login-btn:hover {
+  text-decoration: none;
+}
+
+.login-form {
+  position: absolute;
+  left: 34%;
+  top: -12%;
+  width: 465px;
+  height: 350px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(33, 37, 41, .3) !important;
+  border: none;
+  border-radius: 7px;
+  padding: 35px;
+}
+
+.login-header {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.35rem;
+  padding: .75rem 1.25rem;
+  border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .125);
+  text-align: left;
+  color: white;
+  font-weight: 400;
+}
+
+.login-btn {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 38px;
+  width: 100%;
+  height: 40px;
+  padding: 0;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all 0.6s ease 0s;
+}
+
+.login-btn:hover {
+  color: #ffff;
+  letter-spacing: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0 0.5);
+}
+
+/* register-form */
+.navTop {
+  background-color: #00376e;
+  color: white;
+  width: 100%;
+  height: 65px;
+  display: flex;
+  flex: 1
+}
+
+.register-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  height: 550px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.register-header {
+  color: dodgerblue;
+}
+
+.register-input {
+  padding-left: 8px;
+  display: inline-flex;
+  font-size: 1.09rem;
+  font-weight: 310;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  width: 241px;
+  height: 45px;
+  border-bottom: 1px solid #003087;
+  text-align: center;
+}
+
+.register-input:focus {
+  transition: width 0.8s;
+  width: 300px;
+  border-bottom: 1.5px solid #4ecdc4;
+}
+
+/* edit - profile */
+.profile-dashborad {
+  width: 350px;
+  height: 843px;
+  background-color: #ffffff;
+  border: 0.3px solid lightgrey;
+  border-radius: 41px;
+  box-shadow: 10px 6px 4px 4px lightgrey;
+}
+
+.profile-header {
+  width: 94%;
+  height: 80px;
+  text-align: center;
+}
+
+.arrow {
+  cursor: pointer;
+  float: left;
+  margin-top: 53px;
+  margin-left: 30px;
+}
+
+.profile-header>h6 {
+  position: absolute;
+  top: 55px;
+  left: 154px;
+}
+
+.pen {
+  width: 30px;
+  border-radius: 15px;
+  background-color: #1e90ff;
+  float: right;
+  position: absolute;
+  right: 205px;
+  top: 190px;
+}
+
+.photoPlaceholder {
+  background-color: lightgrey;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-left: 145px;
+}
+
+.owner {
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
